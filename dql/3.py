@@ -22,7 +22,7 @@ print(" ")
 print("Initial Q value in Q learning:", state_value) 
 print("Initial Q value in Double Q learning:", state_value1)
 
-for step in range(20):
+for step in range(200):
     print("------")
     print(f"Step {step + 1}")
     print("------")
