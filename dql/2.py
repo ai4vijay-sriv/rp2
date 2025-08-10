@@ -13,7 +13,6 @@ dq2 = [10,10]
 dq3 = [-1,-1]
 dq4 = [0,0]
 
-def next_maxq(state, action):
 
 
 for i in range(20):

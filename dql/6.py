@@ -46,13 +46,13 @@ for step in range(200):
     print(" ")
 
     print("Double Q learning update")
-    if np.random.rand() < 0.5:
+    if 1:
         max_nextstate_value, action = next_maxqa(0)
         target = 0 + Q_value(0, action)
         state_value1[0] += 0.1 * (target - state_value1[0])
         print("chosen action ",action,"at double q learning(1) : ", target)
         print("Updated Double Q value: ", state_value1[0])
-    else:
+    if 1:
         max_nextstate_value, action = next_maxqa(0)
         target = 0 + Q_value(0, action)
         state_value1[1] += 0.1 * (target - state_value1[1])
