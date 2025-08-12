@@ -17,12 +17,12 @@ class Args:
     env_id: str = "WindyGridWorld-v0"
     code_for: str = "double_coupled"
     alpha: float = 0.0001
-    beta: float = 0.01
+    beta: float = 0.0001
     gamma: float = 0.99
     epsilon_start: float = 1
     epsilon_final: float = 0.05
-    exploration_fraction: float = 0.3
-    num_episodes: int = 5000
+    exploration_fraction: float = 0.5
+    num_episodes: int = 1000
     l: int = 2
     log_base_dir: str = "runs/comp"
     eta: float = 0.5
@@ -73,6 +73,7 @@ def run_training(args):
         state = np.array(state).flatten()
         diffs = rbf_centers - state
         exponents = -((diffs[:, 0] ** 2) / (2 * sigma_pos ** 2) + (diffs[:, 1] ** 2) / (2 * sigma_vel ** 2))
+        return state
         return np.exp(exponents).astype(np.float32)
 
     feature_dim = len(phi(env.reset()[0]))

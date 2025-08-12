@@ -13,12 +13,13 @@ class WindyGridWorldEnv(gym.Env):
         "render_fps": 60
     }
 
-    def __init__(self, GRID_HEIGHT=13, GRID_WIDTH=13,
+    def __init__(self, GRID_HEIGHT=10, GRID_WIDTH=10,
                  #WIND = [0, 0, 0, 1, 1, 1, 1, 2, 2, 3, 2, 2, 3, 2, 1, 1, 1, 1, 0, 0], #for 20 - (3,18)
                  #WIND = [0, 0, 0, 1, 1, 1, 1, 2, 2, 3, 2, 2, 1, 1, 1, 0], #for 16 - (3,14)
-                 WIND = [0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 1, 1, 0], #for 13 -(3,10)
+                 #WIND = [0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 1, 1, 0], #for 13 -(3,10)
+                 WIND = [2,0,1,2,1,0,0,1,2,2],
                  START_STATE=(3, 0), 
-                 GOAL_STATE=(3, 10), 
+                 GOAL_STATE=(3, 7), 
                  REWARD=-1, render_mode=None):
         self.render_mode = render_mode
         self.grid_height = GRID_HEIGHT
