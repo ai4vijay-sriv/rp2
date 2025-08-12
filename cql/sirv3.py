@@ -1,37 +1,58 @@
 import gymnasium as gym
 import numpy as np
 from torch.utils.tensorboard import SummaryWriter
-from datetime import datetime
+from datetime import datetime, date
+from dataclasses import dataclass
+import tyro
+from pprint import pformat
+import random
 
-# Environment
-env = gym.make("MountainCar-v0")
+
+
+@dataclass
+class Args:
+    env_id: str = "MountainCar-v0"
+    code_for: str = "coupled_lfa"
+    alpha: float = 0.005
+    beta: float = 0.005
+    gamma: float = 0.99
+    epsilon_start: float = 1
+    epsilon_final: float = 0.05
+    exploration_fraction: float = 0.8
+    num_episodes: int = 1000
+    l: int = 2
+    log_base_dir: str = "runs/lfa"
+    today: str = date.today()
+    eta = 0.125
+
+# =================== CONFIG ===================
+args = tyro.cli(Args)
+env = gym.make(args.env_id)
 n_actions = env.action_space.n
-obs_dim = env.observation_space.shape[0]  # Should be 2 (position, velocity)
+obs_dim = env.observation_space.shape[0]
+log_name = f"{args.code_for}_{args.env_id}_rbf_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+writer = SummaryWriter(log_dir=f"{args.log_base_dir}/{log_name}")
+writer.add_text("Args", pformat(vars(args)), 0)
 
-log_name = f"mountaincar_rbf_v2{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-writer = SummaryWriter(log_dir=f"runs/lfa/{log_name}")
-
-# Hyperparameters
-alpha = 0.01
-beta = 0.01  
-gamma = 0.99
-epsilon_start = 0.5
-epsilon_final = 0.05
-exploration_fraction = 0.8
-num_episodes = 50000
 
 # Create RBF centers (l x l grid in state space)
-l = 2  # You can adjust this (l=2 or l=3 are common)
 pos_min, pos_max = env.observation_space.low[0], env.observation_space.high[0]
 vel_min, vel_max = env.observation_space.low[1], env.observation_space.high[1]
 
-pos_centers = np.linspace(pos_min, pos_max, l)
-vel_centers = np.linspace(vel_min, vel_max, l)
+pos_centers = np.linspace(pos_min + 0.5*((pos_max-pos_min)/args.l), pos_max - 0.5*((pos_max-pos_min)/args.l), args.l)
+vel_centers = np.linspace(vel_min + 0.5*((vel_max-vel_min)/args.l), vel_max - 0.5*((vel_max-vel_min)/args.l), args.l)
 rbf_centers = np.array([(p, v) for p in pos_centers for v in vel_centers])  # l^2 centers
+pos_grid, vel_grid = np.meshgrid(pos_centers, vel_centers)
+
+# Flatten to (N_centers, 2) array
+rbf_centers = np.column_stack([pos_grid.ravel(), vel_grid.ravel()])
 
 # RBF bandwidth (σ)
-sigma_pos = (pos_max - pos_min) / (l - 1) / 1.5
-sigma_vel = (vel_max - vel_min) / (l - 1) / 1.5
+# sigma_pos = (pos_max - pos_min) / (args.l - 1) / 1.5
+# sigma_vel = (vel_max - vel_min) / (args.l - 1) / 1.5
+
+sigma_pos = args.eta * 1.8
+sigma_vel = args.eta * 0.14
 
 # Feature vector: RBFs over state
 def phi(state):
@@ -47,8 +68,8 @@ weights_v = np.zeros((n_actions, feature_dim), dtype=np.float32)
 
 # ε-greedy schedule
 def get_epsilon(episode):
-    progress = min(episode / (exploration_fraction * num_episodes), 1.0)
-    return epsilon_start + (epsilon_final - epsilon_start) * progress
+    progress = min(episode / (args.exploration_fraction * args.num_episodes), 1.0)
+    return args.epsilon_start + (args.epsilon_final - args.epsilon_start) * progress
 
 # Q-value: dot product between action weight and RBF feature vector
 def q_value_u(state, action):
@@ -66,7 +87,7 @@ def select_action(state, epsilon):
     return int(np.argmax(q_vals))
 
 
-for episode in range(num_episodes):
+for episode in range(args.num_episodes):
     state, _ = env.reset()
     done = False
     total_reward = 0
@@ -80,12 +101,12 @@ for episode in range(num_episodes):
 
         # Q-learning target
         q_next = max(q_value_u(next_state, a) for a in range(n_actions))
-        td_target = reward + gamma * q_next
+        td_target = reward + args.gamma * q_next
         td_error = td_target - q_value_v(state, action)
 
         # Gradient update
-        weights_u[action] += alpha * ((phi(state) * q_value_v(state, action)) - weights_u[action])
-        weights_v[action] += beta * td_error * phi(state)
+        weights_u[action] += args.alpha * ((phi(state) * q_value_v(state, action)) - weights_u[action])
+        weights_v[action] += args.beta * td_error * phi(state)
 
         state = next_state
 
@@ -98,7 +119,7 @@ for episode in range(num_episodes):
     writer.add_scalar("weight_1_v", weights_v[0].mean(), episode)
     writer.add_scalar("weight_2_v", weights_v[1].mean(), episode)
     writer.add_scalar("weight_3_v", weights_v[2].mean(), episode)
-    print(f"Episode {episode+1}/{num_episodes} | Total reward: {total_reward:.1f}")
+    print(f"Episode {episode+1}/{args.num_episodes} | Total reward: {total_reward:.1f}")
 
 
 env.close()

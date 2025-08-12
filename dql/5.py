@@ -25,6 +25,12 @@ def q_value_u(state, action):
 def q_value_v(state, action):
     return np.dot(weights_v[action], phi(state))
 
+def q_value_w1(state, action):
+    return np.dot(weights_w1[action], phi(state))
+
+def q_value_w2(state, action):
+    return np.dot(weights_w2[action], phi(state))
+
 def phi(state):
     vec = np.zeros(5, dtype=np.float32)
     vec[state] = 1.0
@@ -66,6 +72,8 @@ beta = 0.0001
 
 weights_u = np.zeros((n_actions, feature_dim), dtype=np.float32)
 weights_v = np.zeros((n_actions, feature_dim), dtype=np.float32)
+weights_w1 = np.zeros((n_actions, feature_dim), dtype=np.float32)
+weights_w2 = np.zeros((n_actions, feature_dim), dtype=np.float32)
 
 returns = []
 
@@ -77,36 +85,51 @@ for episode in range(num_episodes):
         if np.random.rand() < get_epsilon(episode):
             action = random.choice([0, 1])
         else:
-            action = np.argmax([q_value_v(state, a) for a in range(n_actions)])
+            q_valsv = [q_value_v(state, a) for a in range(n_actions)]
+            q_valsw2 = [q_value_w2(state, a) for a in range(n_actions)]
+            q_mean = np.mean([q_valsv, q_valsw2], axis=0)
+            action = int(np.argmax(q_mean))
         
         next_state, reward = step(state, action)
         ep_return += reward
         if next_state != 1:
             done = True
             
+        choice = random.choice([0, 1])
+        if choice ==0:
+            next_action1 = np.argmax([q_value_w1(next_state, a) for a in range(n_actions)])
+            q_next1 = q_value_u(next_state, next_action1)
+            td_target1 = reward + gamma * q_next1
+            td_error1 = td_target1 - q_value_v(state, action)
 
-        next_action1 = np.argmax([q_value_u(next_state, a) for a in range(n_actions)])
-        q_next1 = q_value_u(next_state, next_action1)
-        td_target1 = reward + gamma * q_next1
-        td_error1 = td_target1 - q_value_v(state, action)
+            weights_u[action] += alpha * ((phi(state) * q_value_v(state, action)) - weights_u[action])
+            weights_v[action] += beta * td_error1 * phi(state)
+        else:
+            next_action2 = np.argmax([q_value_u(next_state, a) for a in range(n_actions)])
+            q_next2 = q_value_w1(next_state, next_action2)
+            td_target2 = reward + gamma * q_next2
+            td_error2 = td_target2 - q_value_w2(state, action)
+            
 
-        weights_u[action] += alpha * ((phi(state) * q_value_v(state, action)) - weights_u[action])
-        weights_v[action] += beta * td_error1 * phi(state)
+            weights_w1[action] += alpha * ((phi(state) * q_value_w2(state, action)) - weights_w1[action])
+            weights_w2[action] += beta * td_error2 * phi(state)  
+
+
         weights_u = np.clip(weights_u, -1e6, 1e6)
         weights_v = np.clip(weights_v, -1e6, 1e6)
+        weights_w1 = np.clip(weights_w1, -1e6, 1e6)
+        weights_w2 = np.clip(weights_w2, -1e6, 1e6)
 
         state = next_state
     returns.append(ep_return)
 
     print(f"Episode {episode + 1}: Return = {ep_return}")
 
-
-
 print(np.mean(returns))
 plt.plot(returns)
 plt.xlabel("Episode")
 plt.ylabel("Return")    
-plt.title("CQL Returns Over Episodes")
+plt.title("CQL & DQL Returns Over Episodes")
 plt.grid(True)
 plt.show()
 
