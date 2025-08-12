@@ -1,0 +1,12 @@
+{"time":"2025-08-11T17:59:44.781075459+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T17:59:45.182781877+05:30","level":"INFO","msg":"stream: created new stream","id":"38vxprle"}
+{"time":"2025-08-11T17:59:45.182847333+05:30","level":"INFO","msg":"stream: started","id":"38vxprle"}
+{"time":"2025-08-11T17:59:45.182976646+05:30","level":"INFO","msg":"writer: started","stream_id":"38vxprle"}
+{"time":"2025-08-11T17:59:45.183078669+05:30","level":"INFO","msg":"sender: started","stream_id":"38vxprle"}
+{"time":"2025-08-11T17:59:45.183086383+05:30","level":"INFO","msg":"handler: started","stream_id":"38vxprle"}
+{"time":"2025-08-11T18:00:05.357396221+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.67052524,"progress":"39.0KB/39.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.369071423,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T18:00:05.435957155+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T18:00:05.800308125+05:30","level":"INFO","msg":"stream: closing","id":"38vxprle"}
+{"time":"2025-08-11T18:00:05.800349756+05:30","level":"INFO","msg":"handler: closed","stream_id":"38vxprle"}
+{"time":"2025-08-11T18:00:05.800451373+05:30","level":"INFO","msg":"sender: closed","stream_id":"38vxprle"}
+{"time":"2025-08-11T18:00:05.800481368+05:30","level":"INFO","msg":"stream: closed","id":"38vxprle"}

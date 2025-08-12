@@ -1,0 +1,12 @@
+{"time":"2025-08-11T12:09:47.225492659+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T12:09:47.650436027+05:30","level":"INFO","msg":"stream: created new stream","id":"12tvxfm4"}
+{"time":"2025-08-11T12:09:47.650485952+05:30","level":"INFO","msg":"stream: started","id":"12tvxfm4"}
+{"time":"2025-08-11T12:09:47.650544849+05:30","level":"INFO","msg":"writer: started","stream_id":"12tvxfm4"}
+{"time":"2025-08-11T12:09:47.650608637+05:30","level":"INFO","msg":"sender: started","stream_id":"12tvxfm4"}
+{"time":"2025-08-11T12:09:47.650751577+05:30","level":"INFO","msg":"handler: started","stream_id":"12tvxfm4"}
+{"time":"2025-08-11T12:09:58.318644698+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.65798549,"progress":"18.9KB/18.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.377204531,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T12:09:59.057678669+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T12:09:59.539716221+05:30","level":"INFO","msg":"stream: closing","id":"12tvxfm4"}
+{"time":"2025-08-11T12:09:59.539753161+05:30","level":"INFO","msg":"handler: closed","stream_id":"12tvxfm4"}
+{"time":"2025-08-11T12:09:59.539835912+05:30","level":"INFO","msg":"sender: closed","stream_id":"12tvxfm4"}
+{"time":"2025-08-11T12:09:59.539864013+05:30","level":"INFO","msg":"stream: closed","id":"12tvxfm4"}

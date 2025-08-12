@@ -1,0 +1,13 @@
+{"time":"2025-08-11T17:00:34.593210107+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T17:00:35.033883802+05:30","level":"INFO","msg":"stream: created new stream","id":"tho69dfs"}
+{"time":"2025-08-11T17:00:35.033907066+05:30","level":"INFO","msg":"stream: started","id":"tho69dfs"}
+{"time":"2025-08-11T17:00:35.033916859+05:30","level":"INFO","msg":"handler: started","stream_id":"tho69dfs"}
+{"time":"2025-08-11T17:00:35.033958674+05:30","level":"INFO","msg":"sender: started","stream_id":"tho69dfs"}
+{"time":"2025-08-11T17:00:35.033967491+05:30","level":"INFO","msg":"writer: started","stream_id":"tho69dfs"}
+{"time":"2025-08-11T17:01:15.792985269+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ai4vijay_iiitb/double_coupled_v2/tho69dfs/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:56706->127.0.0.53:53: i/o timeout"}
+{"time":"2025-08-11T17:02:14.152603066+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.659061282,"progress":"199.6KB/199.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.335494332,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T17:02:14.736953176+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T17:02:15.197947037+05:30","level":"INFO","msg":"stream: closing","id":"tho69dfs"}
+{"time":"2025-08-11T17:02:15.197986548+05:30","level":"INFO","msg":"handler: closed","stream_id":"tho69dfs"}
+{"time":"2025-08-11T17:02:15.198051647+05:30","level":"INFO","msg":"sender: closed","stream_id":"tho69dfs"}
+{"time":"2025-08-11T17:02:15.19808415+05:30","level":"INFO","msg":"stream: closed","id":"tho69dfs"}

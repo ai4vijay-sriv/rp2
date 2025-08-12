@@ -1,0 +1,12 @@
+wandb_version: 1
+
+alpha:
+  value: 0.0005
+beta:
+  value: 0.005
+eta:
+  value: 0.5
+exploration_fraction:
+  value: 0.6
+num_episodes:
+  value: 1000

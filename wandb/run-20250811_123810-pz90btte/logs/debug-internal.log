@@ -1,0 +1,12 @@
+{"time":"2025-08-11T12:38:10.258376355+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T12:38:10.669042478+05:30","level":"INFO","msg":"stream: created new stream","id":"pz90btte"}
+{"time":"2025-08-11T12:38:10.669066463+05:30","level":"INFO","msg":"stream: started","id":"pz90btte"}
+{"time":"2025-08-11T12:38:10.669070671+05:30","level":"INFO","msg":"handler: started","stream_id":"pz90btte"}
+{"time":"2025-08-11T12:38:10.669104387+05:30","level":"INFO","msg":"sender: started","stream_id":"pz90btte"}
+{"time":"2025-08-11T12:38:10.669115821+05:30","level":"INFO","msg":"writer: started","stream_id":"pz90btte"}
+{"time":"2025-08-11T12:38:21.641114862+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T12:38:21.663215151+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 1-499, summary, console lines 0-499","runtime_seconds":0.020909016}],"total_operations":1}}
+{"time":"2025-08-11T12:38:22.028156655+05:30","level":"INFO","msg":"stream: closing","id":"pz90btte"}
+{"time":"2025-08-11T12:38:22.02819087+05:30","level":"INFO","msg":"handler: closed","stream_id":"pz90btte"}
+{"time":"2025-08-11T12:38:22.028256452+05:30","level":"INFO","msg":"sender: closed","stream_id":"pz90btte"}
+{"time":"2025-08-11T12:38:22.028267231+05:30","level":"INFO","msg":"stream: closed","id":"pz90btte"}

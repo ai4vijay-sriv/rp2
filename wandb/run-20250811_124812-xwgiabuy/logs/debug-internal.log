@@ -1,0 +1,12 @@
+{"time":"2025-08-11T12:48:12.886813847+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T12:48:13.318350937+05:30","level":"INFO","msg":"stream: created new stream","id":"xwgiabuy"}
+{"time":"2025-08-11T12:48:13.318404058+05:30","level":"INFO","msg":"stream: started","id":"xwgiabuy"}
+{"time":"2025-08-11T12:48:13.318519721+05:30","level":"INFO","msg":"writer: started","stream_id":"xwgiabuy"}
+{"time":"2025-08-11T12:48:13.3185621+05:30","level":"INFO","msg":"sender: started","stream_id":"xwgiabuy"}
+{"time":"2025-08-11T12:48:13.318738506+05:30","level":"INFO","msg":"handler: started","stream_id":"xwgiabuy"}
+{"time":"2025-08-11T12:48:51.770121045+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.674828484,"progress":"79.0KB/79.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.354187115,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T12:48:52.432382123+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T12:48:52.797851597+05:30","level":"INFO","msg":"stream: closing","id":"xwgiabuy"}
+{"time":"2025-08-11T12:48:52.79786061+05:30","level":"INFO","msg":"handler: closed","stream_id":"xwgiabuy"}
+{"time":"2025-08-11T12:48:52.797882679+05:30","level":"INFO","msg":"sender: closed","stream_id":"xwgiabuy"}
+{"time":"2025-08-11T12:48:52.797885167+05:30","level":"INFO","msg":"stream: closed","id":"xwgiabuy"}

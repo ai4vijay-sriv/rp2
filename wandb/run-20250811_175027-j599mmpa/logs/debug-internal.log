@@ -1,0 +1,12 @@
+{"time":"2025-08-11T17:50:27.313583769+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T17:50:27.765944162+05:30","level":"INFO","msg":"stream: created new stream","id":"j599mmpa"}
+{"time":"2025-08-11T17:50:27.766012199+05:30","level":"INFO","msg":"stream: started","id":"j599mmpa"}
+{"time":"2025-08-11T17:50:27.766162725+05:30","level":"INFO","msg":"writer: started","stream_id":"j599mmpa"}
+{"time":"2025-08-11T17:50:27.766203683+05:30","level":"INFO","msg":"handler: started","stream_id":"j599mmpa"}
+{"time":"2025-08-11T17:50:27.766285999+05:30","level":"INFO","msg":"sender: started","stream_id":"j599mmpa"}
+{"time":"2025-08-11T17:50:47.113609363+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.650582553,"progress":"39.0KB/39.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.319100073,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T17:50:47.271605799+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T17:50:47.731000417+05:30","level":"INFO","msg":"stream: closing","id":"j599mmpa"}
+{"time":"2025-08-11T17:50:47.731034267+05:30","level":"INFO","msg":"handler: closed","stream_id":"j599mmpa"}
+{"time":"2025-08-11T17:50:47.731112837+05:30","level":"INFO","msg":"sender: closed","stream_id":"j599mmpa"}
+{"time":"2025-08-11T17:50:47.731125159+05:30","level":"INFO","msg":"stream: closed","id":"j599mmpa"}

@@ -1,0 +1,12 @@
+{"time":"2025-08-11T18:00:38.461912369+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T18:00:38.909461428+05:30","level":"INFO","msg":"stream: created new stream","id":"uxdc20jn"}
+{"time":"2025-08-11T18:00:38.909508492+05:30","level":"INFO","msg":"stream: started","id":"uxdc20jn"}
+{"time":"2025-08-11T18:00:38.90954259+05:30","level":"INFO","msg":"handler: started","stream_id":"uxdc20jn"}
+{"time":"2025-08-11T18:00:38.909549079+05:30","level":"INFO","msg":"writer: started","stream_id":"uxdc20jn"}
+{"time":"2025-08-11T18:00:38.909608246+05:30","level":"INFO","msg":"sender: started","stream_id":"uxdc20jn"}
+{"time":"2025-08-11T18:02:14.895358394+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.656589273,"progress":"199.1KB/199.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.257938656,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T18:02:15.710206606+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T18:02:16.208045889+05:30","level":"INFO","msg":"stream: closing","id":"uxdc20jn"}
+{"time":"2025-08-11T18:02:16.208078172+05:30","level":"INFO","msg":"handler: closed","stream_id":"uxdc20jn"}
+{"time":"2025-08-11T18:02:16.208164107+05:30","level":"INFO","msg":"sender: closed","stream_id":"uxdc20jn"}
+{"time":"2025-08-11T18:02:16.208173549+05:30","level":"INFO","msg":"stream: closed","id":"uxdc20jn"}

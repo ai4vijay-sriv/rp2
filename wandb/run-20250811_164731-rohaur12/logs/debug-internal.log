@@ -1,0 +1,12 @@
+{"time":"2025-08-11T16:47:31.273608646+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T16:47:31.712077395+05:30","level":"INFO","msg":"stream: created new stream","id":"rohaur12"}
+{"time":"2025-08-11T16:47:31.712115573+05:30","level":"INFO","msg":"stream: started","id":"rohaur12"}
+{"time":"2025-08-11T16:47:31.712196855+05:30","level":"INFO","msg":"sender: started","stream_id":"rohaur12"}
+{"time":"2025-08-11T16:47:31.7121863+05:30","level":"INFO","msg":"writer: started","stream_id":"rohaur12"}
+{"time":"2025-08-11T16:47:31.712181182+05:30","level":"INFO","msg":"handler: started","stream_id":"rohaur12"}
+{"time":"2025-08-11T16:47:42.610600312+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.338959003,"progress":"1.8KB/1.8KB"}],"total_operations":1}}
+{"time":"2025-08-11T16:47:42.651997196+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T16:47:43.084358113+05:30","level":"INFO","msg":"stream: closing","id":"rohaur12"}
+{"time":"2025-08-11T16:47:43.084391994+05:30","level":"INFO","msg":"handler: closed","stream_id":"rohaur12"}
+{"time":"2025-08-11T16:47:43.084462965+05:30","level":"INFO","msg":"sender: closed","stream_id":"rohaur12"}
+{"time":"2025-08-11T16:47:43.08447333+05:30","level":"INFO","msg":"stream: closed","id":"rohaur12"}

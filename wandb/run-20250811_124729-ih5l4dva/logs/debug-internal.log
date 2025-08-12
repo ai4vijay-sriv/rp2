@@ -1,0 +1,12 @@
+{"time":"2025-08-11T12:47:30.020535598+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T12:47:30.430782729+05:30","level":"INFO","msg":"stream: created new stream","id":"ih5l4dva"}
+{"time":"2025-08-11T12:47:30.430802509+05:30","level":"INFO","msg":"stream: started","id":"ih5l4dva"}
+{"time":"2025-08-11T12:47:30.430895872+05:30","level":"INFO","msg":"writer: started","stream_id":"ih5l4dva"}
+{"time":"2025-08-11T12:47:30.430934047+05:30","level":"INFO","msg":"handler: started","stream_id":"ih5l4dva"}
+{"time":"2025-08-11T12:47:30.430955903+05:30","level":"INFO","msg":"sender: started","stream_id":"ih5l4dva"}
+{"time":"2025-08-11T12:47:41.176506868+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.679478279,"progress":"18.9KB/18.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.36953014,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T12:47:41.909011354+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T12:47:42.311194922+05:30","level":"INFO","msg":"stream: closing","id":"ih5l4dva"}
+{"time":"2025-08-11T12:47:42.311240589+05:30","level":"INFO","msg":"handler: closed","stream_id":"ih5l4dva"}
+{"time":"2025-08-11T12:47:42.311327182+05:30","level":"INFO","msg":"sender: closed","stream_id":"ih5l4dva"}
+{"time":"2025-08-11T12:47:42.311341528+05:30","level":"INFO","msg":"stream: closed","id":"ih5l4dva"}

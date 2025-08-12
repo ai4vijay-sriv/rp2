@@ -1,0 +1,12 @@
+{"time":"2025-08-11T12:02:59.796323161+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T12:03:00.207124765+05:30","level":"INFO","msg":"stream: created new stream","id":"rdbc7ydk"}
+{"time":"2025-08-11T12:03:00.20718059+05:30","level":"INFO","msg":"stream: started","id":"rdbc7ydk"}
+{"time":"2025-08-11T12:03:00.207201192+05:30","level":"INFO","msg":"sender: started","stream_id":"rdbc7ydk"}
+{"time":"2025-08-11T12:03:00.207188389+05:30","level":"INFO","msg":"handler: started","stream_id":"rdbc7ydk"}
+{"time":"2025-08-11T12:03:00.207252492+05:30","level":"INFO","msg":"writer: started","stream_id":"rdbc7ydk"}
+{"time":"2025-08-11T12:03:11.144226888+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.3587342,"progress":"1.8KB/1.8KB"}],"total_operations":1}}
+{"time":"2025-08-11T12:03:11.159281187+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T12:03:11.543531773+05:30","level":"INFO","msg":"stream: closing","id":"rdbc7ydk"}
+{"time":"2025-08-11T12:03:11.543570966+05:30","level":"INFO","msg":"handler: closed","stream_id":"rdbc7ydk"}
+{"time":"2025-08-11T12:03:11.543654062+05:30","level":"INFO","msg":"sender: closed","stream_id":"rdbc7ydk"}
+{"time":"2025-08-11T12:03:11.543669461+05:30","level":"INFO","msg":"stream: closed","id":"rdbc7ydk"}

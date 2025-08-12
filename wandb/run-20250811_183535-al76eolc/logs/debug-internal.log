@@ -1,0 +1,12 @@
+{"time":"2025-08-11T18:35:36.200931097+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T18:35:36.652364905+05:30","level":"INFO","msg":"stream: created new stream","id":"al76eolc"}
+{"time":"2025-08-11T18:35:36.652420747+05:30","level":"INFO","msg":"stream: started","id":"al76eolc"}
+{"time":"2025-08-11T18:35:36.652530464+05:30","level":"INFO","msg":"writer: started","stream_id":"al76eolc"}
+{"time":"2025-08-11T18:35:36.652599224+05:30","level":"INFO","msg":"sender: started","stream_id":"al76eolc"}
+{"time":"2025-08-11T18:35:36.652763703+05:30","level":"INFO","msg":"handler: started","stream_id":"al76eolc"}
+{"time":"2025-08-11T18:35:47.358016117+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.665616077,"progress":"18.9KB/18.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.285566005,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T18:35:48.31013077+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T18:35:48.814760353+05:30","level":"INFO","msg":"stream: closing","id":"al76eolc"}
+{"time":"2025-08-11T18:35:48.814796792+05:30","level":"INFO","msg":"handler: closed","stream_id":"al76eolc"}
+{"time":"2025-08-11T18:35:48.81486484+05:30","level":"INFO","msg":"sender: closed","stream_id":"al76eolc"}
+{"time":"2025-08-11T18:35:48.814875422+05:30","level":"INFO","msg":"stream: closed","id":"al76eolc"}

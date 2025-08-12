@@ -1,0 +1,13 @@
+{"time":"2025-08-11T02:37:02.820738283+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-11T02:37:03.243362802+05:30","level":"INFO","msg":"stream: created new stream","id":"mnycwgpi"}
+{"time":"2025-08-11T02:37:03.243422206+05:30","level":"INFO","msg":"stream: started","id":"mnycwgpi"}
+{"time":"2025-08-11T02:37:03.243500156+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mnycwgpi"}
+{"time":"2025-08-11T02:37:03.243580794+05:30","level":"INFO","msg":"handler: started","stream_id":"mnycwgpi"}
+{"time":"2025-08-11T02:37:03.243654459+05:30","level":"INFO","msg":"sender: started","stream_id":"mnycwgpi"}
+{"time":"2025-08-11T02:37:23.588359336+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T02:37:23.619893368+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 806-999, summary, console lines 806-999","runtime_seconds":0.030713711}],"total_operations":1}}
+{"time":"2025-08-11T02:37:23.965208659+05:30","level":"INFO","msg":"stream: closing","id":"mnycwgpi"}
+{"time":"2025-08-11T02:37:23.965213291+05:30","level":"INFO","msg":"handler: closed","stream_id":"mnycwgpi"}
+{"time":"2025-08-11T02:37:23.965216213+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mnycwgpi"}
+{"time":"2025-08-11T02:37:23.965220365+05:30","level":"INFO","msg":"sender: closed","stream_id":"mnycwgpi"}
+{"time":"2025-08-11T02:37:23.96524151+05:30","level":"INFO","msg":"stream: closed","id":"mnycwgpi"}

@@ -1,0 +1,12 @@
+{"time":"2025-08-11T20:44:01.522899734+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T20:44:01.927945859+05:30","level":"INFO","msg":"stream: created new stream","id":"ovhe1imp"}
+{"time":"2025-08-11T20:44:01.928008245+05:30","level":"INFO","msg":"stream: started","id":"ovhe1imp"}
+{"time":"2025-08-11T20:44:01.92804193+05:30","level":"INFO","msg":"writer: started","stream_id":"ovhe1imp"}
+{"time":"2025-08-11T20:44:01.928064843+05:30","level":"INFO","msg":"handler: started","stream_id":"ovhe1imp"}
+{"time":"2025-08-11T20:44:01.928158001+05:30","level":"INFO","msg":"sender: started","stream_id":"ovhe1imp"}
+{"time":"2025-08-11T20:44:43.412452269+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.681290022,"progress":"79.0KB/79.0KB"}],"total_operations":1}}
+{"time":"2025-08-11T20:44:43.512686907+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T20:44:43.949990181+05:30","level":"INFO","msg":"stream: closing","id":"ovhe1imp"}
+{"time":"2025-08-11T20:44:43.950026241+05:30","level":"INFO","msg":"handler: closed","stream_id":"ovhe1imp"}
+{"time":"2025-08-11T20:44:43.950109038+05:30","level":"INFO","msg":"sender: closed","stream_id":"ovhe1imp"}
+{"time":"2025-08-11T20:44:43.950137994+05:30","level":"INFO","msg":"stream: closed","id":"ovhe1imp"}

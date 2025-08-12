@@ -1,0 +1,12 @@
+{"time":"2025-08-12T04:18:48.362519769+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-12T04:18:48.813821518+05:30","level":"INFO","msg":"stream: created new stream","id":"qpiezkiz"}
+{"time":"2025-08-12T04:18:48.813871535+05:30","level":"INFO","msg":"stream: started","id":"qpiezkiz"}
+{"time":"2025-08-12T04:18:48.81394042+05:30","level":"INFO","msg":"writer: started","stream_id":"qpiezkiz"}
+{"time":"2025-08-12T04:18:48.814006874+05:30","level":"INFO","msg":"sender: started","stream_id":"qpiezkiz"}
+{"time":"2025-08-12T04:18:48.814123713+05:30","level":"INFO","msg":"handler: started","stream_id":"qpiezkiz"}
+{"time":"2025-08-12T04:19:28.272856017+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6446595,"progress":"79.0KB/79.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.33178948,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-12T04:19:29.412768855+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-12T04:19:29.885550073+05:30","level":"INFO","msg":"stream: closing","id":"qpiezkiz"}
+{"time":"2025-08-12T04:19:29.885592149+05:30","level":"INFO","msg":"handler: closed","stream_id":"qpiezkiz"}
+{"time":"2025-08-12T04:19:29.885690769+05:30","level":"INFO","msg":"sender: closed","stream_id":"qpiezkiz"}
+{"time":"2025-08-12T04:19:29.885736587+05:30","level":"INFO","msg":"stream: closed","id":"qpiezkiz"}

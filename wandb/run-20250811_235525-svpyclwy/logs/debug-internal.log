@@ -1,0 +1,12 @@
+{"time":"2025-08-11T23:55:25.911966971+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T23:55:26.339169837+05:30","level":"INFO","msg":"stream: created new stream","id":"svpyclwy"}
+{"time":"2025-08-11T23:55:26.339227442+05:30","level":"INFO","msg":"stream: started","id":"svpyclwy"}
+{"time":"2025-08-11T23:55:26.339283996+05:30","level":"INFO","msg":"writer: started","stream_id":"svpyclwy"}
+{"time":"2025-08-11T23:55:26.339327929+05:30","level":"INFO","msg":"sender: started","stream_id":"svpyclwy"}
+{"time":"2025-08-11T23:55:26.339405086+05:30","level":"INFO","msg":"handler: started","stream_id":"svpyclwy"}
+{"time":"2025-08-11T23:55:37.051266883+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.648967086,"progress":"130B/130B"},{"desc":"uploading config.yaml","runtime_seconds":0.351651285,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T23:55:37.908783903+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T23:55:38.344768574+05:30","level":"INFO","msg":"stream: closing","id":"svpyclwy"}
+{"time":"2025-08-11T23:55:38.344807209+05:30","level":"INFO","msg":"handler: closed","stream_id":"svpyclwy"}
+{"time":"2025-08-11T23:55:38.344873539+05:30","level":"INFO","msg":"sender: closed","stream_id":"svpyclwy"}
+{"time":"2025-08-11T23:55:38.344903123+05:30","level":"INFO","msg":"stream: closed","id":"svpyclwy"}

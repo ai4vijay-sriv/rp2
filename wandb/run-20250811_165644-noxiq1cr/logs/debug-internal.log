@@ -1,0 +1,12 @@
+{"time":"2025-08-11T16:56:44.364069368+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T16:56:44.753593847+05:30","level":"INFO","msg":"stream: created new stream","id":"noxiq1cr"}
+{"time":"2025-08-11T16:56:44.753619299+05:30","level":"INFO","msg":"stream: started","id":"noxiq1cr"}
+{"time":"2025-08-11T16:56:44.753702918+05:30","level":"INFO","msg":"writer: started","stream_id":"noxiq1cr"}
+{"time":"2025-08-11T16:56:44.753730855+05:30","level":"INFO","msg":"handler: started","stream_id":"noxiq1cr"}
+{"time":"2025-08-11T16:56:44.753707109+05:30","level":"INFO","msg":"sender: started","stream_id":"noxiq1cr"}
+{"time":"2025-08-11T16:57:04.108123745+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.355200709,"progress":"1.8KB/1.8KB"}],"total_operations":1}}
+{"time":"2025-08-11T16:57:04.130168573+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T16:57:04.496858065+05:30","level":"INFO","msg":"stream: closing","id":"noxiq1cr"}
+{"time":"2025-08-11T16:57:04.496896412+05:30","level":"INFO","msg":"handler: closed","stream_id":"noxiq1cr"}
+{"time":"2025-08-11T16:57:04.496972539+05:30","level":"INFO","msg":"sender: closed","stream_id":"noxiq1cr"}
+{"time":"2025-08-11T16:57:04.496990962+05:30","level":"INFO","msg":"stream: closed","id":"noxiq1cr"}

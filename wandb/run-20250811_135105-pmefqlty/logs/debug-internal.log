@@ -1,0 +1,12 @@
+{"time":"2025-08-11T13:51:05.700446199+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T13:51:06.110930307+05:30","level":"INFO","msg":"stream: created new stream","id":"pmefqlty"}
+{"time":"2025-08-11T13:51:06.110947539+05:30","level":"INFO","msg":"stream: started","id":"pmefqlty"}
+{"time":"2025-08-11T13:51:06.110958608+05:30","level":"INFO","msg":"writer: started","stream_id":"pmefqlty"}
+{"time":"2025-08-11T13:51:06.110958933+05:30","level":"INFO","msg":"handler: started","stream_id":"pmefqlty"}
+{"time":"2025-08-11T13:51:06.110980374+05:30","level":"INFO","msg":"sender: started","stream_id":"pmefqlty"}
+{"time":"2025-08-11T13:52:46.281720401+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.680966565,"progress":"199.1KB/199.1KB"}],"total_operations":1}}
+{"time":"2025-08-11T13:52:46.827474888+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T13:52:47.177065514+05:30","level":"INFO","msg":"stream: closing","id":"pmefqlty"}
+{"time":"2025-08-11T13:52:47.177077074+05:30","level":"INFO","msg":"handler: closed","stream_id":"pmefqlty"}
+{"time":"2025-08-11T13:52:47.177099528+05:30","level":"INFO","msg":"sender: closed","stream_id":"pmefqlty"}
+{"time":"2025-08-11T13:52:47.177106538+05:30","level":"INFO","msg":"stream: closed","id":"pmefqlty"}

@@ -1,0 +1,12 @@
+{"time":"2025-08-11T14:43:34.141051211+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T14:43:34.542602473+05:30","level":"INFO","msg":"stream: created new stream","id":"2gfmm2aw"}
+{"time":"2025-08-11T14:43:34.542652572+05:30","level":"INFO","msg":"stream: started","id":"2gfmm2aw"}
+{"time":"2025-08-11T14:43:34.54273211+05:30","level":"INFO","msg":"writer: started","stream_id":"2gfmm2aw"}
+{"time":"2025-08-11T14:43:34.542774318+05:30","level":"INFO","msg":"sender: started","stream_id":"2gfmm2aw"}
+{"time":"2025-08-11T14:43:34.542866537+05:30","level":"INFO","msg":"handler: started","stream_id":"2gfmm2aw"}
+{"time":"2025-08-11T14:45:05.857414345+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.677073908,"progress":"199.6KB/199.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.344327386,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T14:45:06.532776204+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T14:45:06.879905111+05:30","level":"INFO","msg":"stream: closing","id":"2gfmm2aw"}
+{"time":"2025-08-11T14:45:06.879926146+05:30","level":"INFO","msg":"handler: closed","stream_id":"2gfmm2aw"}
+{"time":"2025-08-11T14:45:06.880033077+05:30","level":"INFO","msg":"sender: closed","stream_id":"2gfmm2aw"}
+{"time":"2025-08-11T14:45:06.880044356+05:30","level":"INFO","msg":"stream: closed","id":"2gfmm2aw"}

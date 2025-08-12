@@ -1,0 +1,12 @@
+{"time":"2025-08-11T23:42:20.498023887+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T23:42:20.890677517+05:30","level":"INFO","msg":"stream: created new stream","id":"d78tobop"}
+{"time":"2025-08-11T23:42:20.890734356+05:30","level":"INFO","msg":"stream: started","id":"d78tobop"}
+{"time":"2025-08-11T23:42:20.890847602+05:30","level":"INFO","msg":"sender: started","stream_id":"d78tobop"}
+{"time":"2025-08-11T23:42:20.890845944+05:30","level":"INFO","msg":"writer: started","stream_id":"d78tobop"}
+{"time":"2025-08-11T23:42:20.890927522+05:30","level":"INFO","msg":"handler: started","stream_id":"d78tobop"}
+{"time":"2025-08-11T23:43:02.895236081+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.668425975,"progress":"79.0KB/79.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.364295161,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T23:43:03.031825086+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T23:43:03.500120548+05:30","level":"INFO","msg":"stream: closing","id":"d78tobop"}
+{"time":"2025-08-11T23:43:03.500161233+05:30","level":"INFO","msg":"handler: closed","stream_id":"d78tobop"}
+{"time":"2025-08-11T23:43:03.500247387+05:30","level":"INFO","msg":"sender: closed","stream_id":"d78tobop"}
+{"time":"2025-08-11T23:43:03.500280547+05:30","level":"INFO","msg":"stream: closed","id":"d78tobop"}

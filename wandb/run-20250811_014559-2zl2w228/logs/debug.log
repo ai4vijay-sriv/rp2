@@ -1,0 +1,55 @@
+2025-08-11 01:45:59,567 INFO    Thread-11 (_run_job):16535 [wandb_setup.py:_flush():80] Current SDK version is 0.21.0
+2025-08-11 01:45:59,567 INFO    Thread-11 (_run_job):16535 [wandb_setup.py:_flush():80] Configure stats pid to 16535
+2025-08-11 01:45:59,567 INFO    Thread-11 (_run_job):16535 [wandb_setup.py:_flush():80] Loading settings from /home/vijay/.config/wandb/settings
+2025-08-11 01:45:59,567 INFO    Thread-11 (_run_job):16535 [wandb_setup.py:_flush():80] Loading settings from /home/vijay/Desktop/rp2/wandb/settings
+2025-08-11 01:45:59,567 INFO    Thread-11 (_run_job):16535 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-08-11 01:45:59,567 INFO    Thread-11 (_run_job):16535 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /home/vijay/Desktop/rp2/wandb/run-20250811_014559-2zl2w228/logs/debug.log
+2025-08-11 01:45:59,568 INFO    Thread-11 (_run_job):16535 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /home/vijay/Desktop/rp2/wandb/run-20250811_014559-2zl2w228/logs/debug-internal.log
+2025-08-11 01:45:59,568 INFO    Thread-11 (_run_job):16535 [wandb_init.py:init():830] calling init triggers
+2025-08-11 01:45:59,568 INFO    Thread-11 (_run_job):16535 [wandb_init.py:init():835] wandb.init called with sweep_config: {'alpha': 0.0001, 'beta': 0.0001, 'eta': 0.125, 'exploration_fraction': 0.2, 'num_episodes': 2000}
+config: {'_wandb': {}}
+2025-08-11 01:45:59,568 INFO    Thread-11 (_run_job):16535 [wandb_init.py:init():871] starting backend
+2025-08-11 01:45:59,772 INFO    Thread-11 (_run_job):16535 [wandb_init.py:init():874] sending inform_init request
+2025-08-11 01:45:59,773 INFO    Thread-11 (_run_job):16535 [wandb_init.py:init():882] backend started and connected
+2025-08-11 01:45:59,774 INFO    Thread-11 (_run_job):16535 [wandb_run.py:_config_callback():1363] config_cb None None {'alpha': 0.0001, 'beta': 0.0001, 'eta': 0.125, 'exploration_fraction': 0.2, 'num_episodes': 2000}
+2025-08-11 01:45:59,775 INFO    Thread-11 (_run_job):16535 [wandb_init.py:init():953] updated telemetry
+2025-08-11 01:45:59,783 INFO    Thread-11 (_run_job):16535 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-08-11 01:46:00,552 INFO    Thread-11 (_run_job):16535 [wandb_init.py:init():1029] starting run threads in backend
+2025-08-11 01:46:00,589 INFO    Thread-11 (_run_job):16535 [wandb_run.py:_console_start():2458] atexit reg
+2025-08-11 01:46:00,589 INFO    Thread-11 (_run_job):16535 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-08-11 01:46:00,589 INFO    Thread-11 (_run_job):16535 [wandb_run.py:_redirect():2375] Wrapping output streams.
+2025-08-11 01:46:00,589 INFO    Thread-11 (_run_job):16535 [wandb_run.py:_redirect():2398] Redirects installed.
+2025-08-11 01:46:00,589 INFO    Thread-11 (_run_job):16535 [wandb_init.py:init():1075] run started, returning control to user process
+2025-08-11 01:46:00,591 INFO    Thread-11 (_run_job):16535 [wandb_run.py:_finish():2224] finishing run ai4vijay_iiitb/double_coupled_v1/2zl2w228
+2025-08-11 01:46:00,591 INFO    Thread-11 (_run_job):16535 [wandb_run.py:_atexit_cleanup():2423] got exitcode: 1
+2025-08-11 01:46:00,591 INFO    Thread-11 (_run_job):16535 [wandb_run.py:_restore():2405] restore
+2025-08-11 01:46:00,591 INFO    Thread-11 (_run_job):16535 [wandb_run.py:_restore():2411] restore done
+2025-08-11 01:46:01,591 INFO    Thread-11 (_run_job):16535 [wandb_run.py:_restore():2405] restore
+2025-08-11 01:46:01,592 INFO    Thread-11 (_run_job):16535 [wandb_run.py:_restore():2411] restore done
+2025-08-11 01:46:01,592 ERROR   Thread-11 (_run_job):16535 [wandb_run.py:_atexit_cleanup():2444] Problem finishing run
+Traceback (most recent call last):
+  File "/home/vijay/Desktop/rp2/cql/testing.py", line 177, in train_sweep
+    run_training(args)
+  File "/home/vijay/Desktop/rp2/cql/testing.py", line 67, in run_training
+    feature_dim = len(phi(env.reset()[0]))
+  File "/home/vijay/Desktop/rp2/cql/testing.py", line 63, in phi
+    diffs = rbf_centers - state
+TypeError: unsupported operand type(s) for -: 'float' and 'builtin_function_or_method'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vijay/Desktop/rp2/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2435, in _atexit_cleanup
+    self._on_finish()
+  File "/home/vijay/Desktop/rp2/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2687, in _on_finish
+    wait_with_progress(
+  File "/home/vijay/Desktop/rp2/.venv/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+  File "/home/vijay/Desktop/rp2/.venv/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 87, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+  File "/home/vijay/Desktop/rp2/.venv/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 27, in run
+    future = executor.submit(runner.run, fn)
+  File "/home/vijay/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/concurrent/futures/thread.py", line 169, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+2025-08-11 01:46:01,897 INFO    MsgRouterThr:16535 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 2 handles.

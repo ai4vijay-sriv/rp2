@@ -1,0 +1,12 @@
+{"time":"2025-08-11T17:05:52.860338622+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T17:05:53.319382735+05:30","level":"INFO","msg":"stream: created new stream","id":"twkish69"}
+{"time":"2025-08-11T17:05:53.319433202+05:30","level":"INFO","msg":"stream: started","id":"twkish69"}
+{"time":"2025-08-11T17:05:53.319482828+05:30","level":"INFO","msg":"writer: started","stream_id":"twkish69"}
+{"time":"2025-08-11T17:05:53.31957872+05:30","level":"INFO","msg":"handler: started","stream_id":"twkish69"}
+{"time":"2025-08-11T17:05:53.319660462+05:30","level":"INFO","msg":"sender: started","stream_id":"twkish69"}
+{"time":"2025-08-11T17:06:13.746013059+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.283649014,"progress":"1.8KB/1.8KB"}],"total_operations":1}}
+{"time":"2025-08-11T17:06:13.817122337+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T17:06:14.297188295+05:30","level":"INFO","msg":"stream: closing","id":"twkish69"}
+{"time":"2025-08-11T17:06:14.297224442+05:30","level":"INFO","msg":"handler: closed","stream_id":"twkish69"}
+{"time":"2025-08-11T17:06:14.297322009+05:30","level":"INFO","msg":"sender: closed","stream_id":"twkish69"}
+{"time":"2025-08-11T17:06:14.297332184+05:30","level":"INFO","msg":"stream: closed","id":"twkish69"}

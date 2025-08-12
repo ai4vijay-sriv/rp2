@@ -1,0 +1,12 @@
+{"time":"2025-08-11T19:32:53.142467195+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T19:32:53.612430868+05:30","level":"INFO","msg":"stream: created new stream","id":"xlduaa9w"}
+{"time":"2025-08-11T19:32:53.612478746+05:30","level":"INFO","msg":"stream: started","id":"xlduaa9w"}
+{"time":"2025-08-11T19:32:53.612586263+05:30","level":"INFO","msg":"writer: started","stream_id":"xlduaa9w"}
+{"time":"2025-08-11T19:32:53.612664595+05:30","level":"INFO","msg":"handler: started","stream_id":"xlduaa9w"}
+{"time":"2025-08-11T19:32:53.612788859+05:30","level":"INFO","msg":"sender: started","stream_id":"xlduaa9w"}
+{"time":"2025-08-11T19:34:33.541216367+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.658152611,"progress":"199.1KB/199.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.367472377,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T19:34:34.453406695+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T19:34:35.03320716+05:30","level":"INFO","msg":"stream: closing","id":"xlduaa9w"}
+{"time":"2025-08-11T19:34:35.033241671+05:30","level":"INFO","msg":"handler: closed","stream_id":"xlduaa9w"}
+{"time":"2025-08-11T19:34:35.03336123+05:30","level":"INFO","msg":"sender: closed","stream_id":"xlduaa9w"}
+{"time":"2025-08-11T19:34:35.033415537+05:30","level":"INFO","msg":"stream: closed","id":"xlduaa9w"}

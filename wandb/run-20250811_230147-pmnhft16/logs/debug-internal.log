@@ -1,0 +1,13 @@
+{"time":"2025-08-11T23:01:47.296896939+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T23:01:48.076790163+05:30","level":"INFO","msg":"stream: created new stream","id":"pmnhft16"}
+{"time":"2025-08-11T23:01:48.076878171+05:30","level":"INFO","msg":"stream: started","id":"pmnhft16"}
+{"time":"2025-08-11T23:01:48.07697247+05:30","level":"INFO","msg":"writer: started","stream_id":"pmnhft16"}
+{"time":"2025-08-11T23:01:48.07704719+05:30","level":"INFO","msg":"handler: started","stream_id":"pmnhft16"}
+{"time":"2025-08-11T23:01:48.077112578+05:30","level":"INFO","msg":"sender: started","stream_id":"pmnhft16"}
+{"time":"2025-08-11T23:01:58.884300284+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ai4vijay_iiitb/double_coupled_v3/pmnhft16/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:42366->127.0.0.53:53: i/o timeout"}
+{"time":"2025-08-11T23:01:59.356178258+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary","runtime_seconds":10.473474138,"error_status":"retrying: Post \"https://api.wandb.ai/files/ai4vijay_iiitb/double_coupled_v3/pmnhft16/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:42366->127.0.0.53:53: i/o timeout"},{"desc":"uploading output.log","runtime_seconds":0.39449621,"progress":"18.9KB/18.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.321384551,"progress":"1.8KB/1.8KB"}],"total_operations":3}}
+{"time":"2025-08-11T23:01:59.463828332+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T23:02:05.026433211+05:30","level":"INFO","msg":"stream: closing","id":"pmnhft16"}
+{"time":"2025-08-11T23:02:05.026473771+05:30","level":"INFO","msg":"handler: closed","stream_id":"pmnhft16"}
+{"time":"2025-08-11T23:02:05.026546058+05:30","level":"INFO","msg":"sender: closed","stream_id":"pmnhft16"}
+{"time":"2025-08-11T23:02:05.026556029+05:30","level":"INFO","msg":"stream: closed","id":"pmnhft16"}

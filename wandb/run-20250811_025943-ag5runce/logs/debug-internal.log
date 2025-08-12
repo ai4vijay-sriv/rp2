@@ -1,0 +1,13 @@
+{"time":"2025-08-11T02:59:43.319300541+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-11T02:59:43.734808494+05:30","level":"INFO","msg":"stream: created new stream","id":"ag5runce"}
+{"time":"2025-08-11T02:59:43.73482476+05:30","level":"INFO","msg":"stream: started","id":"ag5runce"}
+{"time":"2025-08-11T02:59:43.734868454+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ag5runce"}
+{"time":"2025-08-11T02:59:43.734932883+05:30","level":"INFO","msg":"sender: started","stream_id":"ag5runce"}
+{"time":"2025-08-11T02:59:43.734964146+05:30","level":"INFO","msg":"handler: started","stream_id":"ag5runce"}
+{"time":"2025-08-11T03:00:03.712039242+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.677957964,"progress":"39.0KB/39.0KB"}],"total_operations":1}}
+{"time":"2025-08-11T03:00:03.861188881+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T03:00:04.222994721+05:30","level":"INFO","msg":"stream: closing","id":"ag5runce"}
+{"time":"2025-08-11T03:00:04.223016519+05:30","level":"INFO","msg":"handler: closed","stream_id":"ag5runce"}
+{"time":"2025-08-11T03:00:04.223027788+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ag5runce"}
+{"time":"2025-08-11T03:00:04.223119395+05:30","level":"INFO","msg":"sender: closed","stream_id":"ag5runce"}
+{"time":"2025-08-11T03:00:04.22315838+05:30","level":"INFO","msg":"stream: closed","id":"ag5runce"}

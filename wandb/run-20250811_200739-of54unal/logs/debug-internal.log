@@ -1,0 +1,12 @@
+{"time":"2025-08-11T20:07:40.079153066+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T20:07:40.529003198+05:30","level":"INFO","msg":"stream: created new stream","id":"of54unal"}
+{"time":"2025-08-11T20:07:40.529064557+05:30","level":"INFO","msg":"stream: started","id":"of54unal"}
+{"time":"2025-08-11T20:07:40.529106397+05:30","level":"INFO","msg":"writer: started","stream_id":"of54unal"}
+{"time":"2025-08-11T20:07:40.529174773+05:30","level":"INFO","msg":"handler: started","stream_id":"of54unal"}
+{"time":"2025-08-11T20:07:40.529201476+05:30","level":"INFO","msg":"sender: started","stream_id":"of54unal"}
+{"time":"2025-08-11T20:08:02.162518401+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.35111568,"progress":"1.8KB/1.8KB"}],"total_operations":1}}
+{"time":"2025-08-11T20:08:02.23861266+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T20:08:02.675626364+05:30","level":"INFO","msg":"stream: closing","id":"of54unal"}
+{"time":"2025-08-11T20:08:02.675659175+05:30","level":"INFO","msg":"handler: closed","stream_id":"of54unal"}
+{"time":"2025-08-11T20:08:02.675754475+05:30","level":"INFO","msg":"sender: closed","stream_id":"of54unal"}
+{"time":"2025-08-11T20:08:02.67576452+05:30","level":"INFO","msg":"stream: closed","id":"of54unal"}

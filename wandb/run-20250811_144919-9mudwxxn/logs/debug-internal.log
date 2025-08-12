@@ -1,0 +1,13 @@
+{"time":"2025-08-11T14:49:19.527847775+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T14:49:19.932568188+05:30","level":"INFO","msg":"stream: created new stream","id":"9mudwxxn"}
+{"time":"2025-08-11T14:49:19.932639423+05:30","level":"INFO","msg":"stream: started","id":"9mudwxxn"}
+{"time":"2025-08-11T14:49:19.932661533+05:30","level":"INFO","msg":"handler: started","stream_id":"9mudwxxn"}
+{"time":"2025-08-11T14:49:19.932685794+05:30","level":"INFO","msg":"sender: started","stream_id":"9mudwxxn"}
+{"time":"2025-08-11T14:49:19.932792895+05:30","level":"INFO","msg":"writer: started","stream_id":"9mudwxxn"}
+{"time":"2025-08-11T14:49:59.22459781+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 842-1602, console lines 842-1604","runtime_seconds":8.568844397},{"desc":"uploading output.log","runtime_seconds":0.673128132,"progress":"79.5KB/79.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.357915135,"progress":"1.8KB/1.8KB"}],"total_operations":3}}
+{"time":"2025-08-11T14:50:00.310834389+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T14:50:00.657793163+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ai4vijay_iiitb/double_coupled_v2/9mudwxxn/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:45054->127.0.0.53:53: i/o timeout"}
+{"time":"2025-08-11T14:50:03.840108988+05:30","level":"INFO","msg":"stream: closing","id":"9mudwxxn"}
+{"time":"2025-08-11T14:50:03.840147464+05:30","level":"INFO","msg":"handler: closed","stream_id":"9mudwxxn"}
+{"time":"2025-08-11T14:50:03.840232627+05:30","level":"INFO","msg":"sender: closed","stream_id":"9mudwxxn"}
+{"time":"2025-08-11T14:50:03.840243669+05:30","level":"INFO","msg":"stream: closed","id":"9mudwxxn"}

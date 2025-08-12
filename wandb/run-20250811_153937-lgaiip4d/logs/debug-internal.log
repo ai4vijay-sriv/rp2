@@ -1,0 +1,12 @@
+{"time":"2025-08-11T15:39:37.225377389+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T15:39:37.685355621+05:30","level":"INFO","msg":"stream: created new stream","id":"lgaiip4d"}
+{"time":"2025-08-11T15:39:37.685407525+05:30","level":"INFO","msg":"stream: started","id":"lgaiip4d"}
+{"time":"2025-08-11T15:39:37.685450432+05:30","level":"INFO","msg":"writer: started","stream_id":"lgaiip4d"}
+{"time":"2025-08-11T15:39:37.685524785+05:30","level":"INFO","msg":"handler: started","stream_id":"lgaiip4d"}
+{"time":"2025-08-11T15:39:37.685601275+05:30","level":"INFO","msg":"sender: started","stream_id":"lgaiip4d"}
+{"time":"2025-08-11T15:39:57.019641292+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.33802255,"progress":"1.8KB/1.8KB"}],"total_operations":1}}
+{"time":"2025-08-11T15:39:57.036610435+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T15:39:57.392245158+05:30","level":"INFO","msg":"stream: closing","id":"lgaiip4d"}
+{"time":"2025-08-11T15:39:57.392277502+05:30","level":"INFO","msg":"handler: closed","stream_id":"lgaiip4d"}
+{"time":"2025-08-11T15:39:57.39235297+05:30","level":"INFO","msg":"sender: closed","stream_id":"lgaiip4d"}
+{"time":"2025-08-11T15:39:57.39236254+05:30","level":"INFO","msg":"stream: closed","id":"lgaiip4d"}

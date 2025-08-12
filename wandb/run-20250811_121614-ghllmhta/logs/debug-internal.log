@@ -1,0 +1,12 @@
+{"time":"2025-08-11T12:16:14.412453222+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T12:16:14.835090348+05:30","level":"INFO","msg":"stream: created new stream","id":"ghllmhta"}
+{"time":"2025-08-11T12:16:14.83514901+05:30","level":"INFO","msg":"stream: started","id":"ghllmhta"}
+{"time":"2025-08-11T12:16:14.835275347+05:30","level":"INFO","msg":"writer: started","stream_id":"ghllmhta"}
+{"time":"2025-08-11T12:16:14.83531243+05:30","level":"INFO","msg":"sender: started","stream_id":"ghllmhta"}
+{"time":"2025-08-11T12:16:14.835399341+05:30","level":"INFO","msg":"handler: started","stream_id":"ghllmhta"}
+{"time":"2025-08-11T12:16:52.945598682+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.659638131,"progress":"79.0KB/79.0KB"}],"total_operations":1}}
+{"time":"2025-08-11T12:16:53.053036131+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T12:16:53.466862742+05:30","level":"INFO","msg":"stream: closing","id":"ghllmhta"}
+{"time":"2025-08-11T12:16:53.46690354+05:30","level":"INFO","msg":"handler: closed","stream_id":"ghllmhta"}
+{"time":"2025-08-11T12:16:53.466997937+05:30","level":"INFO","msg":"sender: closed","stream_id":"ghllmhta"}
+{"time":"2025-08-11T12:16:53.467012257+05:30","level":"INFO","msg":"stream: closed","id":"ghllmhta"}

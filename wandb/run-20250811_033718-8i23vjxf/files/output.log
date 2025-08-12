@@ -1,0 +1,11 @@
+Episode 1/500 | Total reward: -200.0
+Traceback (most recent call last):
+  File "/home/vijay/Desktop/rp2/cql/testing.py", line 186, in train_sweep
+    run_training(args)
+  File "/home/vijay/Desktop/rp2/cql/testing.py", line 125, in run_training
+    td_error1 = td_target1 - q_value_v(state, action)
+  File "/home/vijay/Desktop/rp2/cql/testing.py", line 92, in q_value_v
+    return np.dot(weights_v[action], phi(state))
+  File "/home/vijay/Desktop/rp2/cql/testing.py", line 71, in phi
+    diffs = rbf_centers - state
+ValueError: input operand has more dimensions than allowed by the axis remapping

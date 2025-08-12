@@ -1,0 +1,12 @@
+{"time":"2025-08-11T20:03:31.041725793+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T20:03:31.445322244+05:30","level":"INFO","msg":"stream: created new stream","id":"qeemript"}
+{"time":"2025-08-11T20:03:31.445377238+05:30","level":"INFO","msg":"stream: started","id":"qeemript"}
+{"time":"2025-08-11T20:03:31.445442032+05:30","level":"INFO","msg":"writer: started","stream_id":"qeemript"}
+{"time":"2025-08-11T20:03:31.445488586+05:30","level":"INFO","msg":"handler: started","stream_id":"qeemript"}
+{"time":"2025-08-11T20:03:31.445568063+05:30","level":"INFO","msg":"sender: started","stream_id":"qeemript"}
+{"time":"2025-08-11T20:03:42.700636965+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.226472478,"progress":"1.8KB/1.8KB"}],"total_operations":1}}
+{"time":"2025-08-11T20:03:42.836843696+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T20:03:43.220317108+05:30","level":"INFO","msg":"stream: closing","id":"qeemript"}
+{"time":"2025-08-11T20:03:43.220375526+05:30","level":"INFO","msg":"handler: closed","stream_id":"qeemript"}
+{"time":"2025-08-11T20:03:43.220439956+05:30","level":"INFO","msg":"sender: closed","stream_id":"qeemript"}
+{"time":"2025-08-11T20:03:43.220468828+05:30","level":"INFO","msg":"stream: closed","id":"qeemript"}

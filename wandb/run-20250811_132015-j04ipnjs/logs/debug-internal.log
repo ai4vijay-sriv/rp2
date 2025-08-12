@@ -1,0 +1,12 @@
+{"time":"2025-08-11T13:20:16.167040451+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T13:20:16.60108285+05:30","level":"INFO","msg":"stream: created new stream","id":"j04ipnjs"}
+{"time":"2025-08-11T13:20:16.601131177+05:30","level":"INFO","msg":"stream: started","id":"j04ipnjs"}
+{"time":"2025-08-11T13:20:16.601273223+05:30","level":"INFO","msg":"writer: started","stream_id":"j04ipnjs"}
+{"time":"2025-08-11T13:20:16.601265008+05:30","level":"INFO","msg":"handler: started","stream_id":"j04ipnjs"}
+{"time":"2025-08-11T13:20:16.601365759+05:30","level":"INFO","msg":"sender: started","stream_id":"j04ipnjs"}
+{"time":"2025-08-11T13:20:29.683850462+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.666704438,"progress":"25.5KB/25.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.367194928,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T13:20:30.500368105+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T13:20:30.931707813+05:30","level":"INFO","msg":"stream: closing","id":"j04ipnjs"}
+{"time":"2025-08-11T13:20:30.931724344+05:30","level":"INFO","msg":"handler: closed","stream_id":"j04ipnjs"}
+{"time":"2025-08-11T13:20:30.931761648+05:30","level":"INFO","msg":"sender: closed","stream_id":"j04ipnjs"}
+{"time":"2025-08-11T13:20:30.931765792+05:30","level":"INFO","msg":"stream: closed","id":"j04ipnjs"}

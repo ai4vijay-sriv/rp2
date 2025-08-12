@@ -1,0 +1,12 @@
+{"time":"2025-08-11T11:52:33.623433532+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T11:52:34.037361245+05:30","level":"INFO","msg":"stream: created new stream","id":"zqfubeef"}
+{"time":"2025-08-11T11:52:34.03743304+05:30","level":"INFO","msg":"stream: started","id":"zqfubeef"}
+{"time":"2025-08-11T11:52:34.037497048+05:30","level":"INFO","msg":"handler: started","stream_id":"zqfubeef"}
+{"time":"2025-08-11T11:52:34.037500973+05:30","level":"INFO","msg":"writer: started","stream_id":"zqfubeef"}
+{"time":"2025-08-11T11:52:34.037538003+05:30","level":"INFO","msg":"sender: started","stream_id":"zqfubeef"}
+{"time":"2025-08-11T11:52:54.510112911+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.678925135,"progress":"39.0KB/39.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.3860576,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T11:52:54.696794865+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T11:52:55.043770081+05:30","level":"INFO","msg":"stream: closing","id":"zqfubeef"}
+{"time":"2025-08-11T11:52:55.043813509+05:30","level":"INFO","msg":"handler: closed","stream_id":"zqfubeef"}
+{"time":"2025-08-11T11:52:55.043895546+05:30","level":"INFO","msg":"sender: closed","stream_id":"zqfubeef"}
+{"time":"2025-08-11T11:52:55.043908178+05:30","level":"INFO","msg":"stream: closed","id":"zqfubeef"}

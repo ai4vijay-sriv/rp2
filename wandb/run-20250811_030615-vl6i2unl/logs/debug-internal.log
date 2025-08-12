@@ -1,0 +1,13 @@
+{"time":"2025-08-11T03:06:15.443115087+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-11T03:06:15.865074831+05:30","level":"INFO","msg":"stream: created new stream","id":"vl6i2unl"}
+{"time":"2025-08-11T03:06:15.865124215+05:30","level":"INFO","msg":"stream: started","id":"vl6i2unl"}
+{"time":"2025-08-11T03:06:15.86521067+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vl6i2unl"}
+{"time":"2025-08-11T03:06:15.865305567+05:30","level":"INFO","msg":"handler: started","stream_id":"vl6i2unl"}
+{"time":"2025-08-11T03:06:15.86538944+05:30","level":"INFO","msg":"sender: started","stream_id":"vl6i2unl"}
+{"time":"2025-08-11T03:06:35.46119931+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.682862642,"progress":"39.0KB/39.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.372803684,"progress":"1.8KB/1.8KB"}],"total_operations":2}}
+{"time":"2025-08-11T03:06:36.406452705+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T03:06:36.853366438+05:30","level":"INFO","msg":"stream: closing","id":"vl6i2unl"}
+{"time":"2025-08-11T03:06:36.853395371+05:30","level":"INFO","msg":"handler: closed","stream_id":"vl6i2unl"}
+{"time":"2025-08-11T03:06:36.853407122+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vl6i2unl"}
+{"time":"2025-08-11T03:06:36.853427795+05:30","level":"INFO","msg":"sender: closed","stream_id":"vl6i2unl"}
+{"time":"2025-08-11T03:06:36.853533641+05:30","level":"INFO","msg":"stream: closed","id":"vl6i2unl"}

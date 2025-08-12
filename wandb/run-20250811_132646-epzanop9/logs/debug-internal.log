@@ -1,0 +1,12 @@
+{"time":"2025-08-11T13:26:46.862022676+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-11T13:26:47.264394401+05:30","level":"INFO","msg":"stream: created new stream","id":"epzanop9"}
+{"time":"2025-08-11T13:26:47.264427679+05:30","level":"INFO","msg":"stream: started","id":"epzanop9"}
+{"time":"2025-08-11T13:26:47.264472598+05:30","level":"INFO","msg":"writer: started","stream_id":"epzanop9"}
+{"time":"2025-08-11T13:26:47.264507895+05:30","level":"INFO","msg":"sender: started","stream_id":"epzanop9"}
+{"time":"2025-08-11T13:26:47.264560528+05:30","level":"INFO","msg":"handler: started","stream_id":"epzanop9"}
+{"time":"2025-08-11T13:26:48.655936129+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.35004361,"progress":"126B/126B"}],"total_operations":1}}
+{"time":"2025-08-11T13:26:49.743969947+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T13:26:50.095969028+05:30","level":"INFO","msg":"stream: closing","id":"epzanop9"}
+{"time":"2025-08-11T13:26:50.096001198+05:30","level":"INFO","msg":"handler: closed","stream_id":"epzanop9"}
+{"time":"2025-08-11T13:26:50.096074509+05:30","level":"INFO","msg":"sender: closed","stream_id":"epzanop9"}
+{"time":"2025-08-11T13:26:50.096087005+05:30","level":"INFO","msg":"stream: closed","id":"epzanop9"}
