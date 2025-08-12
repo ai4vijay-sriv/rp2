@@ -1,6 +1,0 @@
-{"time":"2025-08-11T03:57:05.857406837+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
-{"time":"2025-08-11T03:57:06.262661501+05:30","level":"INFO","msg":"stream: created new stream","id":"pxpfwrt2"}
-{"time":"2025-08-11T03:57:06.262731702+05:30","level":"INFO","msg":"stream: started","id":"pxpfwrt2"}
-{"time":"2025-08-11T03:57:06.262768524+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pxpfwrt2"}
-{"time":"2025-08-11T03:57:06.262872055+05:30","level":"INFO","msg":"sender: started","stream_id":"pxpfwrt2"}
-{"time":"2025-08-11T03:57:06.26298604+05:30","level":"INFO","msg":"handler: started","stream_id":"pxpfwrt2"}
