@@ -6,18 +6,6 @@ import matplotlib.pyplot as plt
 SEED = 42
 np.random.seed(SEED)
 random.seed(SEED)
-
-def next_maxqa(state):
-    if state == 0:
-        max_v = np.max([5, 10 if random.random() < 0.1 else -1])
-        max_a = 0 if max_v == 5 else 1
-        return max_v, max_a
-
-def Q_value(state, action):
-    if state == 0 and action == 0:
-        return 5
-    elif state == 0 and action == 1:
-        return 10 if random.random() < 0.1 else -1
     
 def q_value_u(state, action):
     return np.dot(weights_u[action], phi(state))
@@ -34,15 +22,6 @@ def get_epsilon(episode):
     progress = min(episode / (exploration_fraction * num_episodes), 1.0)
     return epsilon_start + (epsilon_final - epsilon_start) * progress
 
-def get_reward(state, action):
-    if state == 0:
-        return 0
-    elif state == 1 and action == 0:
-        return 5
-    elif state == 1 and action == 1:
-        return 10 if random.random() < 0.1 else -1
-    else:
-        return 0
 
 def step(state, action):
     if state == 0:
