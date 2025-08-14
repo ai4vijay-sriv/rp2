@@ -32,7 +32,7 @@ print(" ")
 print("Initial Q value in Q learning:", state_value)
 print("Initial Q value in Double Q learning:", state_value1)
 
-for step in range(200):
+for step in range(20):
     axon = 0
     print("------")
     print(f"Step {step + 1}")
@@ -63,7 +63,8 @@ for step in range(200):
     if action == 1 and axon == 1:
         print("yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay")
 
-
+    print(state_value)
+    print(state_value1)
     # Save values for plotting
     q_values.append(state_value)
     dq_values_avg.append(np.mean(state_value1))
