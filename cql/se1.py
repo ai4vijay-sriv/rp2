@@ -31,8 +31,8 @@ class Args:
 sweep_config = {
     "method": "grid",
     "parameters": {
-        "alpha": {"values": [0.005]},
-        "beta": {"values": [0.005, 0.01]},
+        "alpha": {"values": [0.0001, 0.0005, 0.001, 0.005, 0.01]},
+        "beta": {"values": [0.0001, 0.0005, 0.001, 0.005, 0.01]},
         "eta": {"values": [0.125, 0.25, 0.5, 1.0]},
         "exploration_fraction": {"values": [0.2, 0.3, 0.4, 0.5, 0.6, 0.8]},
         "num_episodes": {"values": [500, 1000, 2000, 5000]}
@@ -73,6 +73,7 @@ def run_training(args):
         state = np.array(state).flatten()
         diffs = rbf_centers - state
         exponents = -((diffs[:, 0] ** 2) / (2 * sigma_pos ** 2) + (diffs[:, 1] ** 2) / (2 * sigma_vel ** 2))
+        return state
         return np.exp(exponents).astype(np.float32)
 
     feature_dim = len(phi(env.reset()[0]))
@@ -179,7 +180,7 @@ def train_sweep(config=None):
     with wandb.init(config=config):
         config = wandb.config
         args = Args(
-            env_id="MountainCar-v0",
+            env_id="WindyGridWorld-v0",
             code_for="coupled_lfa",
             alpha=config.alpha,
             beta=config.beta,
@@ -201,7 +202,7 @@ if __name__ == "__main__":
 
     if "sweep" in sys.argv:
         wandb.login()
-        sweep_id = wandb.sweep(sweep_config, project="double_coupled")
+        sweep_id = wandb.sweep(sweep_config, project="double_coupled_windygridworld")
         wandb.agent(sweep_id, function=train_sweep)
     else:
         args = tyro.cli(Args)
